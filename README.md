@@ -1,5 +1,7 @@
-### To store and use configuration files accross multiple machines.
+### To store and use configuration files across multiple machines.
 
- * Vim Config
- * ZSH config
- * tmux config
+Configuration files for: 
+
+ * Vim,
+ * Zsh (*Z Shell*)
+ * tmux
