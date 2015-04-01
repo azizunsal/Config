@@ -46,13 +46,6 @@ plugins=(mvn osx svn brew go golang tmux)
 
 source $ZSH/oh-my-zsh.sh
 
-
-
 # define some alias
 alias ll='ls -l'
 alias lr='ls -lahrt'
-
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-
-
