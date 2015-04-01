@@ -46,19 +46,13 @@ plugins=(mvn osx svn brew go golang tmux)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/local/bin/mvn
-PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
-
-PATH=/usr/local/go/bin:$PATH
-export PATH
-
-export GOPATH=/Users/azizunsal/GO_Workspace
-
-export PATH=$PATH:$GOPATH/bin
 
 # define some alias
 alias ll='ls -l'
 alias lr='ls -lahrt'
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 
