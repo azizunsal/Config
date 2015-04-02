@@ -1,5 +1,5 @@
 " Load pathogen
-execute pathogen#infect()
+call pathogen#infect()
 
 set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
@@ -12,10 +12,18 @@ set foldmethod=marker
 set showbreak=>\
 
 
-syntax on " Enable syntax highligting
+
+syntax enable " Enable syntax highligting
 filetype plugin indent on " Enable filetype plugins
 
-let mapleader="," " Change mapleader key, its default value is backslash.
+" Solarized Theme Settings
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+
+
+" Change mapleader key, its default value is backslash.
+let mapleader="," 
 
 au FileType go nmap <leader>r <Plug>(go-run)
 au FileType go nmap <leader>b <Plug>(go-build)
@@ -50,3 +58,5 @@ set noswapfile
 
 " Do not duplicate an existing open buffer
 set switchbuf=useopen
+
+
