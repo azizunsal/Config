@@ -3,5 +3,6 @@
 Configuration files for: 
 
  * Vim,
- * Zsh (*Z Shell*)
- * tmux
+ * Zsh (_Z Shell_),
+ * tmux,
+ * Secure Shell _(SSH)_  Multiple SSH Identities.
