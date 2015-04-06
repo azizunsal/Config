@@ -10,13 +10,13 @@ Configuration files for:
 
 ### Usage
 
-`cd ~ `
+```
+cd ~
+ln -s ~/configs/.vim . 
+ln -s ~/configs/.vimrc .  
+ln -s ~/configs/.zshrc . 
+ln -s ~/configs/.tmux.conf . 
 
-`ln -s ~/configs/.vim . `
-`ln -s ~/configs/.vimrc . `
-`ln -s ~/configs/.zshrc . `
-`ln -s ~/configs/.tmux.conf . `
-
-`cd ~/.ssh `
-
-`ln -s ~/configs/.ssh/config . `
+cd ~/.ssh 
+ln -s ~/configs/.ssh/config . 
+```
