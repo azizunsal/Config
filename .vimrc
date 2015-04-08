@@ -59,4 +59,10 @@ set noswapfile
 " Do not duplicate an existing open buffer
 set switchbuf=useopen
 
+" Define max. character per line. Set character count to 100
+if exists('+colorcolumn')
+	set colorcolumn=100
+else
+	au BunWinEnter * let w:m2=matchadd('ErrorMsg', '\%>100v.\+', -1)
+endif
 
