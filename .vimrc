@@ -42,9 +42,6 @@ set matchtime=1
 " Set utf8 as standart encoding and en_US as the standart language
 set encoding=utf8
 
-" Linebreaks on 500 characters
-set lbr
-set tw=500
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
@@ -65,4 +62,8 @@ if exists('+colorcolumn')
 else
 	au BunWinEnter * let w:m2=matchadd('ErrorMsg', '\%>100v.\+', -1)
 endif
+
+" Linebreaks on 500 characters
+set lbr
+set tw=100
 
