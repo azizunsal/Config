@@ -49,3 +49,6 @@ source $ZSH/oh-my-zsh.sh
 # define some alias
 alias ll='ls -l'
 alias lr='ls -lahrt'
+
+export NVM_DIR="/Users/azizunsal/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

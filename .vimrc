@@ -58,12 +58,12 @@ set switchbuf=useopen
 
 " Define max. character per line. Set character count to 100
 if exists('+colorcolumn')
-	set colorcolumn=100
+	set colorcolumn=150
 else
-	au BunWinEnter * let w:m2=matchadd('ErrorMsg', '\%>100v.\+', -1)
+	au BunWinEnter * let w:m2=matchadd('ErrorMsg', '\%>150v.\+', -1)
 endif
 
 " Linebreaks on 500 characters
-set lbr
-set tw=100
+"set lbr
+"set tw=150
 
