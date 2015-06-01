@@ -4,6 +4,8 @@ call pathogen#infect()
 set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
 
+set number
+
 " Show fold column
 set foldcolumn=2
 set foldmethod=marker
