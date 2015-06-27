@@ -1,8 +1,10 @@
 " Load pathogen
-call pathogen#infect()
+execute pathogen#infect()
 
-set ruler
+" set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
+set number
+set cursorline
 
 " Show fold column
 set foldcolumn=2
@@ -25,13 +27,7 @@ colorscheme solarized
 " Change mapleader key, its default value is backslash.
 let mapleader="," 
 
-au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go nmap <leader>b <Plug>(go-build)
-au FileType go nmap <leader>t <Plug>(go-test)
-au FileType go nmap <leader>c <Plug>(go-coverage)
-
 let g:netrw_liststyle=3
-
 
 set ignorecase " Ignore case when searching
 set hlsearch "Highlight search results
