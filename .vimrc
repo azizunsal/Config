@@ -6,6 +6,8 @@ set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
 set number
 set cursorline
 
+set number
+
 " Show fold column
 set foldcolumn=2
 set foldmethod=marker

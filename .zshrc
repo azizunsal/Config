@@ -42,13 +42,10 @@ DISABLE_AUTO_TITLE=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(mvn osx svn brew go golang)
+plugins=(mvn osx brew git node npm gradle)
 
 source $ZSH/oh-my-zsh.sh
 
 # define some alias
 alias ll='ls -l'
 alias lr='ls -lahrt'
-
-export NVM_DIR="/Users/azizunsal/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
