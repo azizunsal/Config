@@ -69,3 +69,9 @@ filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" Disable annoying sound
+" First enable internal visual bell
+set visualbell
+" Then set the effect of the vim visual bell to do NOTHING
+set t_vb=
