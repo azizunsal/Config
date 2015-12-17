@@ -1,0 +1,22 @@
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[user]
+	name = Aziz Unsal
+	email = unsal.aziz@gmail.com
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[alias]
+    apply-gitignore = !git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached
+    st  = status
+    ci = commit -m
+    co  = checkout
+    cob = checkout -b
+    br  = branch
+    d   = diff
+    ds  = diff --staged
+    l   = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short
+    lg  = log --graph --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short
