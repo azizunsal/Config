@@ -6,8 +6,9 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="afowler"
-#ZSH_THEME="robbyrussell"
-ZSH_THEME=blinks
+ZSH_THEME="robbyrussell"
+#ZSH_THEME=blinks
+#ZSH_THEME="clean"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -49,3 +50,14 @@ source $ZSH/oh-my-zsh.sh
 # define some alias
 alias ll='ls -l'
 alias lr='ls -lahrt'
+alias go_api='cd /Users/azizunsal/projects/nevalabs/fr_web_api'
+alias go_client='cd /Users/azizunsal/projects/nevalabs/fr_web_client'
+
+
+export NVM_DIR="/Users/azizunsal/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
+# Setting for the new UTF-8 terminal support in Lion
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
