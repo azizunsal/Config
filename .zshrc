@@ -52,8 +52,3 @@ alias ll='ls -l'
 alias lr='ls -lahrt'
 alias go_api='cd /Users/azizunsal/projects/nevalabs/fr_web_api'
 alias go_client='cd /Users/azizunsal/projects/nevalabs/fr_web_client'
-
-
-# Setting for the new UTF-8 terminal support in Lion
-LC_CTYPE=en_US.UTF-8
-LC_ALL=en_US.UTF-8
