@@ -43,7 +43,7 @@ DISABLE_AUTO_TITLE=true
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(mvn osx brew git github node npm)
+plugins=(osx brew git node npm nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -52,3 +52,5 @@ alias ll='ls -l'
 alias lr='ls -lahrt'
 alias go_api='cd /Users/azizunsal/projects/nevalabs/fr_web_api'
 alias go_client='cd /Users/azizunsal/projects/nevalabs/fr_web_client'
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
